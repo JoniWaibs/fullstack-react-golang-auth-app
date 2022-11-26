@@ -1,0 +1,14 @@
+### create user
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "password": "password",
+  "role": "admin",
+  "Country": "Canada"
+}
+
+### retrieve users
+GET http://localhost:3000/api/users
+
